@@ -15,21 +15,48 @@ body {
      margin: 0;
 }
 
-.wrapper{
-    height: 100vh;
-    width: 100%;
+.wrapper .inner {
     display: flex;
-    background-color: aqua;
-    justify-content: space-between;
-} 
-
-.wrapper .inner{
-    width: 40px;
-    height: 100%;
-    background-image: url(Group\ 7.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+    align-items: center;
 }
+
+.image-holder {
+    width: 40%;
+    height: 100vh;
+    background-image:url(student.png) ;
+    color: white;
+}
+
+.form-holder{
+    width: 60%;
+    height: 100vh;
+    padding: 30px;
+}
+
+.outter .kodecamp{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-group{
+    display: flex;
+    gap: 10px;
+}
+
+label{
+    display: block;
+}
+
+.form-input{
+    width: 50%;
+}
+
+.form-input input, .form-input select{
+    width: 100%;
+}
+
+.form button{
+    justify-content: flex-end;
+}
+
 
